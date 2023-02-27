@@ -21,7 +21,7 @@
   "name": "hotel_management_app",
   "version": "1.0.0",
   "description": "",
-  "main": "app.ts",
+  "main": "app.js",
   "scripts": {
     "test": "jest",
     "dev": "nodemon ./src/app.js",
