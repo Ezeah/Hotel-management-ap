@@ -24,9 +24,9 @@
   "main": "app.ts",
   "scripts": {
     "test": "jest",
-    "dev": "nodemon ./src/app.ts",
+    "dev": "nodemon ./src/app.js",
     "build": "tsc",
-    "start": "node ./src/app.ts"
+    "start": "node ./src/app.js"
   },
     "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
