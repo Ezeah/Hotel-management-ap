@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "lib": ["es6"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "pretty": true,
+      "sourceMap": true,
+      "rootDir": "src",
+      "outDir": "./dist",
+      "baseUrl": "./lib",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true, 
+      "allowJs": true
+    },
+     "include": [
+        "lib/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "files":["types.d.ts"]
+  }
